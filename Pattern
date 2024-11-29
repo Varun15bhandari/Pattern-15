@@ -1,0 +1,11 @@
+class Solution {
+    public void pattern15(int n) {
+        // Line 4-5: Suggest adding a comment explaining the inner logic of printing characters.
+        for(int i=n;i>0;i--){
+            for(char ch='A';ch<'A'+i;ch++){  
+                System.out.print(ch);
+            }
+            System.out.println();
+        }
+    }
+}
